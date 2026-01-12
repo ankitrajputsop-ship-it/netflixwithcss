@@ -3,35 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <title>Netflix Sign Up</title>
+
+    <link rel="stylesheet" href="main.css" />
   </head>
 
-  <body class="bodysty" <link rel="stylesheet" href="./assets/css/main.css">
-    >
+  <body>
     <!-- Background -->
-    <div
-      class="divsty"
-      <link
-      rel="stylesheet"
-      href="./assets/css/main.css"
-      <!--
-      style="
-        width: 100%;
-        height: 100vh;
-        background: linear-gradient(
-            to top,
-            rgba(0, 0, 0, 0.8),
-            rgba(0, 0, 0, 0.8)
-          ),
-          #111;
-        background-size: cover;
-        display: flex;
-        flex-direction: column;
-      "
-      --
-    >
-      >
+    <div class="div1">
       <!-- Header -->
-      <div style="padding: 25px 50px">
+      <div class="div2">
         <svg
           width="150"
           height="50"
@@ -42,177 +22,62 @@
           <rect x="0" y="0" width="150" height="50" fill="#221F1F" rx="4" />
 
           <!-- NETFLIX text in bold red -->
-          <text class="txtstyl">NETFLIX</text>
+          <text
+            x="75"
+            y="36"
+            font-family="Arial, sans-serif"
+            font-size="32"
+            font-weight="900"
+            fill="#E50914"
+            text-anchor="middle"
+            letter-spacing="0.5"
+          >
+            NETFLIX
+          </text>
         </svg>
       </div>
 
       <!-- Signup Box -->
-      <div
-        style="
-          flex: 1;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        "
-      >
-        <div
-          style="
-            width: 380px;
-            background: rgba(0, 0, 0, 0.75);
-            padding: 60px;
-            color: white;
-            border-radius: 4px;
-          "
-        >
-          <h1
-            class="h1sty"
-            <!--
-            style="
-              margin: 0 0 28px 0;
-              font-size: 32px;
-              color: white;
-              font-family: Arial, Helvetica, sans-serif;
-            "
-            --
-          >
-            > Create Your Account
-          </h1>
+      <div class="div3">
+        <div class="div4">
+          <h1 class="h1sty">Create Your Account</h1>
 
           <!-- First Name Input -->
-          <input
-            class="inpusty"
-            type="text"
-            placeholder="First Name"
-            <!--
-            style="
-              width: 100%;
-              padding: 14px;
-              margin-bottom: 16px;
-              background: #333;
-              border: none;
-              border-radius: 4px;
-              color: white;
-              font-size: 16px;
-              box-sizing: border-box;
-            "
-            --
-          />
-          />
+          <input class="inptxt" type="text" placeholder="First Name" />
 
           <!-- Last Name Input -->
-          <input
-            class="inpu2sty"
-            type="text"
-            placeholder="Last Name"
-            <!--
-            style="
-              width: 100%;
-              padding: 14px;
-              margin-bottom: 16px;
-              background: #333;
-              border: none;
-              border-radius: 4px;
-              color: white;
-              font-size: 16px;
-              box-sizing: border-box;
-            "
-            --
-          />
-          />
+          <input class="inptxt" type="text" placeholder="Last Name" />
 
           <!-- Email Input -->
-          <input
-            class="emailinpsty"
-            type="email"
-            placeholder="Email address"
-            <!--
-            style="
-              width: 100%;
-              padding: 14px;
-              margin-bottom: 16px;
-              background: #333;
-              border: none;
-              border-radius: 4px;
-              color: white;
-              font-size: 16px;
-              box-sizing: border-box;
-            "
-            --
-          />
-          />
+          <input class="inptxt" type="email" placeholder="Email address" />
 
           <!-- Password Input -->
-          <input
-            type="password"
-            placeholder="Password"
-            style="
-              width: 100%;
-              padding: 14px;
-              margin-bottom: 16px;
-              background: #333;
-              border: none;
-              border-radius: 4px;
-              color: white;
-              font-size: 16px;
-              box-sizing: border-box;
-            "
-          />
+          <input class="inptxt" type="password" placeholder="Password" />
 
           <!-- Confirm Password Input -->
           <input
+            class="inptxt"
             type="password"
             placeholder="Confirm Password"
-            style="
-              width: 100%;
-              padding: 14px;
-              margin-bottom: 20px;
-              background: #333;
-              border: none;
-              border-radius: 4px;
-              color: white;
-              font-size: 16px;
-              box-sizing: border-box;
-            "
           />
 
           <!-- Terms Agreement -->
-          <div
-            style="
-              display: flex;
-              align-items: flex-start;
-              margin-bottom: 20px;
-              font-size: 13px;
-              color: #b3b3b3;
-            "
-          >
+          <div class="div5">
             <input
               type="checkbox"
               style="margin-right: 10px; margin-top: 3px"
             />
             <span
               >I agree to the Netflix
-              <span style="color: #e50914; cursor: pointer">Terms of Use</span>
+              <span class="spn">Terms of Use</span>
               and
-              <span style="color: #e50914; cursor: pointer"
-                >Privacy Policy</span
-              ></span
+              <span class="spn">Privacy Policy</span></span
             >
           </div>
 
           <!-- Sign Up Button -->
-          <button
-            style="
-              width: 100%;
-              padding: 14px;
-              background: #e50914;
-              border: none;
-              border-radius: 4px;
-              color: white;
-              font-size: 16px;
-              font-weight: bold;
-              cursor: pointer;
-              margin-bottom: 20px;
-            "
+          <button class="btn"
+           
           >
             Create Account
           </button>
@@ -228,40 +93,27 @@
             "
           >
             Already have an account?
-            <span style="color: #e50914; cursor: pointer; margin-left: 8px">
+            <span class="spn" margin-left: 8px">
               Sign In</span
             >
           </div>
 
           <!-- Contact Info -->
-          <div
-            style="
-              display: flex;
-              justify-content: center;
-              margin-top: 25px;
-              font-size: 13px;
-              color: #737373;
-            "
+          <div class="div6"
+            
           >
             Need help?
-            <span style="color: #e50914; cursor: pointer; margin-left: 8px"
+            <span class="spn" margin-left: 8px"
               >Contact Support</span
             >
           </div>
 
           <!-- reCAPTCHA notice -->
-          <div
-            style="
-              margin-top: 25px;
-              font-size: 11px;
-              color: #8c8c8c;
-              text-align: center;
-              padding-top: 15px;
-              border-top: 1px solid #333;
-            "
+          <div class="div7"
+            
           >
             This page is protected by Google reCAPTCHA to ensure you're not a
-            bot. <span style="color: #e50914; cursor: pointer">Learn more</span>
+            bot. <span class="spn">Learn more</span>
           </div>
         </div>
       </div>
