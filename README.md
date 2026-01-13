@@ -20,7 +20,7 @@ Beginner-friendly frontend project
 
 HTML5
 
-CSS3
+CSS
 
 🚀 Purpose
 This project is built to improve frontend development skills and understand real-world website layout design similar to Netflix.
